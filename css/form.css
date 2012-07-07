@@ -1,0 +1,83 @@
+.cajaFormulario{
+    color: #CCCCCC;
+    font-family: Verdana,helvetica,arial,sans-serif;
+    font-size: 11px;
+    margin: 0 0 10px;
+    width: 100%;	
+}
+.botonFormulario{
+    background: -moz-linear-gradient(center top , #F7F7F7, #E7E7E7) repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(center top , #F7F7F7, #E7E7E7) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F7F7F7), to(#E7E7E7)); /* Saf4+, Chrome */
+	background: -webkit-linear-gradient(top, #F7F7F7, #E7E7E7); /* Chrome 10+, Saf5.1+ */
+	background: -moz-linear-gradient(top, #F7F7F7, #E7E7E7); /* FF3.6+ */
+	background: -ms-linear-gradient(top, #F7F7F7, #E7E7E7); /* IE10 */
+	background: -o-linear-gradient(top, #F7F7F7, #E7E7E7); /* Opera 11.10+ */
+	background: linear-gradient(top, #F7F7F7, #E7E7E7); /* W3C */    border: 1px solid #DDDDDD;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    height: 35px;
+    width: 180px;
+    color: #444444;
+    font-size: 0.9em;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.botonFormulario:hover{
+	width:180px;   
+    background: -moz-linear-gradient(center top , #F7F7F7, #D8D8D8) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F7F7F7), to(#D8D8D8)); /* Saf4+, Chrome */
+	background: -webkit-linear-gradient(top, #F7F7F7, #D8D8D8); /* Chrome 10+, Saf5.1+ */
+	background: -moz-linear-gradient(top, #F7F7F7, #D8D8D8); /* FF3.6+ */
+	background: -ms-linear-gradient(top, #F7F7F7, #D8D8D8); /* IE10 */
+	background: -o-linear-gradient(top, #F7F7F7, #D8D8D8); /* Opera 11.10+ */
+	background: linear-gradient(top, #F7F7F7, #D8D8D8); /* W3C */
+    border: 1px solid #DDDDDD;
+    border-radius: 3px 3px 3px 3px;
+    height: 35px;	
+}
+.contactoFormulario{
+    margin-top: 10px;
+    padding: 20px;
+    font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size:0.9em;
+}
+.contactoFormulario div{
+    margin-bottom: 15px; /* esto los separara un poco */	
+}
+
+.contactoFormulario input[type='text'], .contactoFormulario textarea{
+    border: 1px solid #AACFE4;
+    margin: 5px 3px 5px 0;
+    padding: 7px 6px;
+    resize: none;
+}
+.contactoFormulario textarea{
+    width: 554px;
+}
+.contactoFormulario input[type='text']:focus, .contactoFormulario textarea:focus{
+    outline: none; /* reset especifico para Chrome/Safari */
+    box-shadow:0 0 0 2px #dde9ec;
+}
+#contacto{
+    color: #555;
+    float: left;
+    margin: 12px 0 0;
+    width: 100%;
+}
+#contacto h1{
+	font-size:1.7em;
+	margin:0 0 7px 18px;
+	padding:0;	
+	color:#666;
+	font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+.greyBox{
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #D8D8D8;
+    border-radius:10px;
+    -moz-border-radius: 10px;
+    padding: 10px 0 10px 25px;
+}
